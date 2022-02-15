@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="save" onclick="save()">
+            |SAVE|
+        </button>
+        <button id="load" onclick="load()">
+            |LOAD|
+        </button>
+        <h1 id="countReward" onclick=""></h1><ion-icon class="giftIcon" name="gift-outline"></ion-icon>
+        <div class="stats">
+            <p id="balance">Balance</p>
+            <p id="income">Income</p>
+            <p id="rate">Mining rate</p>
+        </div>
+        <button id="start" onclick="choose()">Start Mine</button>
+        <div class="upgrades">
+            <button onclick="upgrade1()" class="upgrade" id="upgrade1">
+                Upgrade 1
+                |increase income to 1.5|
+                [cost 2500 bucks]
+            </button>
+            <br>
+            <button class="upgrade" id="upgrade2">
+                Upgrade 2
+                |coming soon...|
+                [???]
+            </button>
+        </div>
+        <script src="mine.js"></script>
+    </body>
+</html>
+
